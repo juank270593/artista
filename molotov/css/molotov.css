@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body { background-color: black;
+	padding: 5vw
+
+ }
+
+ h1 {
+ 	text-align: center;
+ 	color: white;
+    font-family: 'Sacramento';
+    font-size: 5vw;
+    margin-top: 0vw;
+
+ }
+
+ h2 {
+ 	color: white;
+ 	font-family:'Sacramento';
+ 	text-align: left;
+ 	font-size: 3vw;
+ 	margin-top: 8vw;
+ }
+ p{
+ 	color: white;
+ 	font-family:'Raleway';
+ 	font-size: 2vw;
+ 	text-align: justify;
+
+ }
+ ul{
+ 	font-family: 'Raleway';
+ 	font-size: 2vw;
+ 	color: white;
+ }
+
+table{
+	font-family: 'Raleway';
+	color: white;
+	font-size: 2vw;
+	border-collapse: collapse;
+	width: 100%;
+
+}
+
+th,td{
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid gray;
+}
+
+tr:hover{
+	background-color: rgb(255,255,255,0.1);
+}
+
+#portada{
+	background-image: url('../img/molotov_portada3.png');
+	width: 100%;
+	height:40vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 2vw;
+}
+.lanzamientos{
+	width: 8vw
+}
+.redes{
+	width: 8vw;
+	margin: ;
+}
